@@ -9,6 +9,9 @@
     text-decoration: none;
     transition: 2x linear;
 }
+body{
+    overflow-x: hidden;
+}
 .header{
     min-height: 100vh;
     width: 100%;
@@ -116,15 +119,14 @@ nav img{
     z-index: 1000;
   }
   .inner-box{
-    max-width: 400px;
-    height: 200px;
+    width: 65%;
+    height: 500px;
     background: #fff6ec;
     position: relative;
-    top: 100px;
-    padding: 300px; 
-    justify-content: center;
-    align-items: center;
-    left: 25%;
+    padding: 25px; 
+    margin-top: 80px;
+    left: 20%;
+    z-index: 1;
   }
 
   @media(max-width:700px){
@@ -161,17 +163,46 @@ nav img{
 .text-about{
     position: relative;
     padding: 40px;
+    width: 100%;
+    height: 500px;
     background: #540d36;
 }
-.text-about h2{
-    font-size: 3.5em;
+.container img{
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.inner-box h3{
+    font-size: 3em;
     margin-bottom: 10px;
     color: #323131;
     font-family: 'germania one', cursive;
 }
-.text-about p{
+.inner-box p{
     font-size: 1.1em;
     color: #323131;
+}
+.inner-box blockquote{
+    margin: 30px 0;
+    padding-left: 25px;
+    border-left: solid 6px #d9c1a4;
+}
+blockquote{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.float{
+    position: absolute;
+    top: -150px;
+    right: -70px;
+}
+.dice{
+    opacity: 0.1;
+    position: relative;
+    top: -170px;
+    right: -480px;
 }
 .txt-cpg{
     position: relative;
@@ -182,4 +213,13 @@ nav img{
     font-size: 3.3em;
     margin-bottom: 10px;
     font-family: 'germania one', cursive;
+    text-align: center;
+    margin-top: 300px;
+}
+.sword-1{
+    position: absolute;
+    top: -150px;
+    right: -70px;
+    padding: 700px;
+    
 }
